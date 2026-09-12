@@ -1,0 +1,152 @@
+/* =========================
+   GENERAL
+========================= */
+
+body {
+    margin: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f8f5f0;
+    color: #3d3935;
+}
+
+
+/* =========================
+   WELCOME PAGE
+========================= */
+
+.welcome-page {
+    min-height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 30px;
+}
+
+
+.welcome-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+
+/* Decorative symbol */
+
+.welcome-symbol {
+    font-size: 22px;
+    margin-bottom: 25px;
+
+    opacity: 0.7;
+}
+
+
+/* Main title */
+
+.welcome-title {
+    font-size: clamp(2rem, 5vw, 3.2rem);
+    font-weight: 400;
+    line-height: 1.2;
+
+    margin-bottom: 25px;
+
+    text-transform: lowercase;
+}
+
+
+/* Subtitle */
+
+.welcome-subtitle {
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+
+    margin-bottom: 15px;
+
+    color: #77716b;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.name-form {
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+
+#nameInput {
+    height: 48px;
+
+    border-radius: 0;
+    border: 1px solid #cfc8c0;
+
+    background-color: transparent;
+
+    text-align: center;
+
+    font-family: Arial, sans-serif;
+    font-size: 0.9rem;
+
+    box-shadow: none;
+}
+
+
+#nameInput::placeholder {
+    color: #aaa39c;
+}
+
+
+#nameInput:focus {
+    border-color: #6d665f;
+    box-shadow: none;
+}
+
+
+/* Continue button */
+
+.continue-btn {
+    width: 100%;
+    height: 48px;
+
+    margin-top: 12px;
+
+    border-radius: 0;
+
+    background-color: #3d3935;
+    color: #fff;
+
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+
+    transition: all 0.25s ease;
+}
+
+
+.continue-btn:hover {
+    background-color: #5a544e;
+    color: #fff;
+
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   TOAST
+========================= */
+
+.toast {
+    border-radius: 0;
+    border: 1px solid #d8d0c8;
+
+    background-color: #ff0000;
+    color: #d8d0c8;
+    font-weight: bold;
+
+    font-family: Arial, sans-serif;
+    font-size: 0.85rem;
+
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
